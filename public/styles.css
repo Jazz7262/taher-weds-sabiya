@@ -10,6 +10,7 @@ body {
     text-align: center;
     background-color: #ffffff;
     background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+    overflow-x: hidden;
 }
 
 h1 {
@@ -31,7 +32,6 @@ h1 {
     margin: 0;
 }
 
-
 /* Praising Content Section  */
 #praising-content {
     line-height: 1.5;
@@ -42,10 +42,11 @@ h1 {
 }
 
 #praising-content h2 {
-    letter-spacing: 0px;
+    font-size: 1.8rem;
 }
 
 #praising-content h3 {
+    font-size: 1.5rem;
     margin-top: 20px;
 }
 
@@ -206,11 +207,12 @@ h1 {
     margin-bottom: 0px;
 }
 
-.left {
+#timeline .left {
     border-right: 1px solid #1e7b6786;
 }
-.right {
-    border-left: 1px solid #1e7b6786;}
+#timeline .right {
+    border-left: 1px solid #1e7b6786;
+}
 
 /* Count Down Section */
 #count-down {
@@ -337,15 +339,195 @@ h1 {
 }
 
 #developer-info .icon-link {
-    padding: 0px 10px ;
+    padding: 0px 10px;
 }
 
+#play-btn {
+    color: #1e7b67;
+    border: 2px solid #1e7b67;
+    background-color: transparent;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* Modal Section */
+#my-modal .modal-dialog {
+    border: 2px solid #1e7b67;
+    border-radius: 2%;
+}
+
+#my-modal h2 {
+    font-size: 1.5rem;
+}
+#my-modal .btn {
+    background-color: #1e7b67;
+    color: white;
+}
 
 /* Responsive Work */
 @media (max-width: 990px) {
+    /* Navbar Section */
+    .navbar {
+        padding: 2% 7%;
+    }
+    .navbar-brand h1 {
+        font-size: 1.5rem;
+    }
 
-#praising-content {
-    
-}
-}
+    /* Praising Content Section  */
+    #praising-content {
+        text-align: center;
+    }
+    #praising-content h2 {
+        font-size: 1.4rem;
+    }
+    #praising-content h3 {
+        font-size: 1rem;
+    }
 
+    /* Slide Section */
+    .slide-content-bg {
+        width: 350px;
+        height: 300px;
+        background-image: url("./assets/images/heart-bg-sm.png");
+    }
+    .slide-content-bg .title h5 {
+        font-size: 0.9rem;
+    }
+    .slide-content-bg .title h2 {
+        font-size: 2rem;
+        margin: 0px;
+    }
+    .slide-content-bg .title p {
+        font-size: 0.8rem;
+    }
+
+    /* Guest - Name Section */
+    #guest {
+        padding: 5% 7%;
+    }
+    #guest h2 {
+        font-size: 1.2rem;
+    }
+    #guest h1 {
+        font-size: 1.5rem;
+    }
+
+    /* Couple Section*/
+    #couple .title-quote {
+        font-size: 1.5rem;
+    }
+    #couple .couple-img {
+        width: 70%;
+    }
+    #couple h3 {
+        font-size: 1.5rem;
+    }
+    #couple .heart-mid {
+        width: 40%;
+        margin: 10%;
+    }
+
+    /* Invitation Quote Section */
+    .inner-content {
+        padding: 7% 7%;
+    }
+    .inner-content h1 {
+        font-size: 1.5rem;
+    }
+    .inner-content h3 {
+        font-size: 1rem;
+    }
+
+    /* Timeline Section */
+    #timeline .row {
+        margin: 0% 1%;
+    }
+    #timeline .col-lg-6 {
+        padding-top: 4%;
+    }
+    #timeline .inshaallaah {
+        font-size: 2rem;
+    }
+    #timeline h1 {
+        font-size: 1.85rem;
+    }
+    #timeline h4 {
+        font-size: 1rem;
+    }
+    #timeline h5 {
+        font-size: 0.8rem;
+    }
+    #timeline h2 {
+        font-family: "Roboto Slab", serif;
+        font-size: 1rem;
+    }
+    #timeline .right,
+    #timeline .left {
+        border: none;
+        border-left: 2px solid;
+    }
+
+    /* Count Down Section */
+    #count-down h4 {
+        font-size: 1.2rem;
+    }
+    #count-down .title h1 {
+        font-size: 2rem;
+    }
+    #count-down .clock .num {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    #count-down .clock li {
+        padding: 15px;
+        margin: 0px 10px;
+    }
+
+    /* Invite-note */
+    #invite-note {
+        padding: 5% 7%;
+    }
+    #invite-note h3 {
+        font-size: 1.2rem;
+    }
+    #invite-note h1 {
+        font-size: 1.5rem;
+    }
+    #invite-note h4 {
+        font-size: 1rem;
+    }
+    #invite-note h6 {
+        font-size: 0.8rem;
+    }
+
+    /* Compliments Section */
+    #compliments {
+        padding: 5% 7%;
+    }
+    #compliments h1 {
+        font-size: 1.8rem;
+    }
+    #compliments h4,
+    h5 {
+        font-size: 1rem;
+    }
+
+    /* Developer Info */
+    #developer-info h4 {
+        font-size: 1rem;
+    }
+    #developer-info h1 {
+        font-size: 1.5rem;
+    }
+
+    /* Modal Section */    
+    #my-modal h1 {
+        font-size: 1.5rem;
+    }
+    #my-modal h2 {
+        font-size: 1rem;
+    }
+}

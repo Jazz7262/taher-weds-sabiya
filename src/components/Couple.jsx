@@ -10,6 +10,7 @@ function Couple() {
                     <img
                         className="couple-img"
                         src="../assets/images/taher.png"
+                        alt="Groom_img"
                     />
                     <div className="info">
                         <h3>K MUHAMMAD TAHER</h3>
@@ -19,22 +20,23 @@ function Couple() {
                 </div>
                 <div
                     className="col-lg-2"
-                    data-aos="fade"
-                    data-aos-delay="500"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="200"
                 >
                     <img
                         className=" heart-mid"
                         src="../assets/images/heart-mid.png"
+                        alt="heart_img"
                     />
                 </div>
                 <div
                     className="col-lg-5"
                     data-aos="fade-up-left"
-                    data-aos-delay="300"
                 >
                     <img
                         className="couple-img"
                         src="../assets/images/hijaab-girl.png"
+                        alt="Bride_img"
                     />
 
                     <div className="info">

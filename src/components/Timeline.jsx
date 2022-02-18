@@ -3,7 +3,7 @@ import React from "react";
 function Timeline() {
     return (
         <section id="timeline">
-            <h1>Inshaallaah ...</h1>
+            <h1 className="inshaallaah">Inshaallaah ...</h1>
 
             <div className="row">
                 <div className="col-lg-6  left" data-aos="slide-right">
@@ -14,7 +14,9 @@ function Timeline() {
             </div>
 
             <div className="row">
-                <div className="col-lg-6 left"></div>
+                <div className="col-lg-6 left">
+                    
+                </div>
                 <div className="col-lg-6 right" data-aos="slide-left">
                     <h1>Nikaah</h1>
                     <h4>On Sunday, February 20, 2022.</h4>

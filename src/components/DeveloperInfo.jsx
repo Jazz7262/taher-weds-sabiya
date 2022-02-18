@@ -6,7 +6,7 @@ import AccountBoxIcon from "@mui/icons-material/AccountBox";
 function DeveloperInfo() {
     return (
         <section id="developer-info">
-            <div data-aos="fade" data-aos-delay="500">
+            <div data-aos="fade" data-aos-delay="300">
                 <h4>Want your own Card on the Internet, Contact</h4>
                 <a href="https://ziauddinziya07.github.io">
                     <h1>Ziauddin Ziya</h1>

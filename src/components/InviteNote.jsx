@@ -9,7 +9,7 @@ function InviteNote() {
                 <h4>Tresurer: Darul-Uloom Masoomia, Adoni.</h4>
                 <h4>Prop.: Mohammed Ali Jewellers, Adoni.</h4>
                 <h6>H.No.: 1/541/120, NGO's Colony, Adoni - 518301.</h6>
-                <h4>Contact: +91 99635 41902, +91 97044 49724.</h4>
+                <h6>Contact: +91 99635 41902, +91 97044 49724.</h6>
             </div>
         </section>
     );

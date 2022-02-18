@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Compliments from "./Compliments";
 import CountDown from "./CountDown";
 import Couple from "./Couple";
@@ -10,6 +10,8 @@ import Navbar from "./Navbar";
 import PraisingContent from "./PraisingContent";
 import Slide from "./Slide";
 import Timeline from "./Timeline";
+import CustomModal from "./CustomModal.jsx";
+import Audio from "./Audio";
 
 function App() {
     return (
@@ -17,7 +19,7 @@ function App() {
             <Navbar />
             <PraisingContent />
             <Slide />
-            <Guest />
+            {/* <Guest /> */}
             <Couple />
             <InvitationQuote />
             <Timeline />
@@ -25,6 +27,8 @@ function App() {
             <InviteNote />
             <Compliments />
             <DeveloperInfo />
+            <Audio />
+            <CustomModal />
         </>
     );
 }

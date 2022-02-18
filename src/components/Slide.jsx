@@ -9,7 +9,9 @@ function Slide() {
                         <div className="title">
                             <h5>WE ARE GETTING MARRIED</h5>
                             <h2>Save Our Date</h2>
-                            <p className="date">19 February 2022</p>
+                            <p id="guest-ref" className="date">
+                                20<sup>th</sup> February, 2022
+                            </p>
                         </div>
                     </div>
                 </div>

@@ -14,7 +14,7 @@ function Audio() {
 
     return (
         <>
-            <audio id="audio">
+            <audio id="audio" loop>
                 <source
                     src="../assets/audio-files/instrumental-flute.mp3"
                     type="audio/mpeg"

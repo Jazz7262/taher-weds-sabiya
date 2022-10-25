@@ -6,7 +6,7 @@ function Couple() {
             <h1 className="title-quote">Happy Couple</h1>
 
             <div className="row">
-                <div className="col-lg-5" data-aos="fade-up-right">
+                <div className="col-lg-5" data-aos="fade-up">
                     <img
                         className="couple-img"
                         src="../assets/images/taher.png"
@@ -29,10 +29,7 @@ function Couple() {
                         alt="heart_img"
                     />
                 </div>
-                <div
-                    className="col-lg-5"
-                    data-aos="fade-up-left"
-                >
+                <div className="col-lg-5" data-aos="fade-up">
                     <img
                         className="couple-img"
                         src="../assets/images/hijaab-girl.png"

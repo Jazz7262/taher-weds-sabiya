@@ -3,8 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
-
-
     function handleClick() {
         var btn = document.getElementById("ham-btn");
         btn.click();
@@ -12,10 +10,7 @@ function Navbar() {
 
     return (
         <section id="header">
-            <nav
-                id="navbar"
-                className="navbar fixed-top navbar-expand-md navbar-dark "
-            >
+            <nav id="navbar" className="navbar navbar-expand-lg navbar-dark ">
                 <a
                     className="navbar-brand"
                     onClick={handleClick}
@@ -46,7 +41,11 @@ function Navbar() {
                 >
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <a className="nav-link" onClick={handleClick} href="#slide">
+                            <a
+                                className="nav-link"
+                                onClick={handleClick}
+                                href="#slide"
+                            >
                                 Slide
                             </a>
                         </li>
@@ -56,17 +55,29 @@ function Navbar() {
                             </a>
                         </li> */}
                         <li className="nav-item">
-                            <a className="nav-link" onClick={handleClick} href="#couple">
+                            <a
+                                className="nav-link"
+                                onClick={handleClick}
+                                href="#couple"
+                            >
                                 Couple
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" onClick={handleClick} href="#timeline">
+                            <a
+                                className="nav-link"
+                                onClick={handleClick}
+                                href="#timeline"
+                            >
                                 Date
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" onClick={handleClick} href="#invite-note">
+                            <a
+                                className="nav-link"
+                                onClick={handleClick}
+                                href="#invite-note"
+                            >
                                 Contact
                             </a>
                         </li>

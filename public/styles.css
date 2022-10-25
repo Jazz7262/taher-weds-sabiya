@@ -36,7 +36,7 @@ h1 {
 #praising-content {
     line-height: 1.5;
     color: #1e7b67;
-    padding: 15% 7% 7%;
+    padding: 7% 7%;
     text-align: justify;
     text-align-last: center;
 }
@@ -348,12 +348,13 @@ h1 {
     background-color: transparent;
     border-radius: 50%;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 25px;
+    right: 25px;
+    padding: 5px;
 }
 
 /* Modal Section */
-#my-modal .modal-dialog {
+#my-modal .modal-content {
     border: 2px solid #1e7b67;
     border-radius: 2%;
 }
@@ -370,7 +371,7 @@ h1 {
 @media (max-width: 990px) {
     /* Navbar Section */
     .navbar {
-        padding: 2% 7%;
+        padding: 1% 7%;
     }
     .navbar-brand h1 {
         font-size: 1.5rem;
@@ -378,7 +379,7 @@ h1 {
 
     /* Praising Content Section  */
     #praising-content {
-        text-align: center;
+        text-align: center; 
     }
     #praising-content h2 {
         font-size: 1.4rem;
@@ -512,7 +513,7 @@ h1 {
     }
     #compliments h4,
     h5 {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     /* Developer Info */

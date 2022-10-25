@@ -25,7 +25,7 @@ function CustomModal() {
                 Open Modal
             </button>
             <div className="modal fade" id="custom-modal">
-                <div className="modal-dialog">
+                <div className="modal-dialog modal-dialog-centered modal-md">
                     <div className="modal-content">
                         <div className="modal-header">
                             <h1>Wedding Inviation</h1>

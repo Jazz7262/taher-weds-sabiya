@@ -6,7 +6,7 @@ function Timeline() {
             <h1 className="inshaallaah">Inshaallaah ...</h1>
 
             <div className="row">
-                <div className="col-lg-6  left" data-aos="slide-right">
+                <div className="col-lg-6  left" data-aos="fade-up">
                     <h1>Shukrana</h1>
                     <h4>On Saturday, February 19, 2022.</h4>
                 </div>
@@ -14,10 +14,8 @@ function Timeline() {
             </div>
 
             <div className="row">
-                <div className="col-lg-6 left">
-                    
-                </div>
-                <div className="col-lg-6 right" data-aos="slide-left">
+                <div className="col-lg-6 left"></div>
+                <div className="col-lg-6 right" data-aos="fade-down">
                     <h1>Nikaah</h1>
                     <h4>On Sunday, February 20, 2022.</h4>
                     <h5>Time: 12:45 PM</h5>
@@ -31,7 +29,7 @@ function Timeline() {
             </div>
 
             <div className="row">
-                <div className="col-lg-6 left" data-aos="slide-right">
+                <div className="col-lg-6 left" data-aos="fade-down">
                     <h1>Valima</h1>
                     <h4>On Monday, February 21, 2022.</h4>
                     <h5>Time: 02:00 PM</h5>
